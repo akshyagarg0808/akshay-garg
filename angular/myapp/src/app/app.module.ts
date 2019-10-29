@@ -10,6 +10,7 @@ import { AboutComponent } from './about/about.component';
 import { KitchenComponent } from './kitchen/kitchen.component';
 import { HouseholdComponent } from './household/household.component';
 import { ContactComponent } from './contact/contact.component';
+import { HomesComponent } from './homes/homes.component';
 
 const appRoutes: Routes=[
   {path:'', component: HomeComponent},
@@ -27,7 +28,8 @@ const appRoutes: Routes=[
     AboutComponent,
     KitchenComponent,
     HouseholdComponent,
-    ContactComponent
+    ContactComponent,
+    HomesComponent
   ],
   imports: [
     BrowserModule,
